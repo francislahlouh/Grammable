@@ -69,5 +69,8 @@ end
 gem 'simple_form'
 gem 'devise'
 gem 'carrierwave', '~> 2.0'
+group :development, :test do
+  gem 'rspec'
+end
 
 

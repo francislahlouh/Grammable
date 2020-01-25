@@ -98,3 +98,10 @@ RSpec.configure do |config|
   Kernel.srand config.seed
 =end
 end
+# a lot of comments
+
+require 'image'
+RSpec.configure do |config|
+  # a lot of code
+
+end
